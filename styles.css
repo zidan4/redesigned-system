@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+header {
+  background: #35424a;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+}
+h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+nav {
+  margin: 20px 0;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+footer {
+  background: #35424a;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+.currency-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+.currency-table th,
+.currency-table td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+.currency-table th {
+  background-color: #35424a;
+  color: white;
+}
+.currency-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.currency-table tr:hover {
+  background-color: #ddd;
+}
+.currency-table .highlight {
+  background-color: #ffeb3b;
+}
+.currency-table .highlight:hover {
+  background-color: #ffc107;
+}
+.currency-table .error {
+  background-color: #f44336;
+  color: white;
+}
+.currency-table .error:hover {
+  background-color: #d32f2f;
+}
+.currency-table .success {
+  background-color: #4caf50;
+  color: white;
+}
+.currency-table .success:hover {
+  background-color: #388e3c;
+}
+.currency-table .warning {
+  background-color: #ff9800;
+  color: white;
+}
+.currency-table .warning:hover {
+  background-color: #f57c00;
+}
